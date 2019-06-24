@@ -31,14 +31,21 @@
         <fields name="params">
             <fieldset name="basic">
                 <field
-                    name="brand"
+                    name="brand_id"
                     type="sql"
                     label="MOD_FUNDER_BRAND_LABEL"
                     description="MOD_FUNDER_BRAND_DESC"
-                    query="SELECT id, name FROM #__brands WHERE catid = 254 ORDER BY name"
+                    query="SELECT id, name FROM #__brands WHERE catid = 153 ORDER BY name"
                     key_field="id"
-                    value_field="same"
+                    value_field="name"
                     header="None"
+                />
+                <field
+                    name="brand_url"
+                    type="url"
+                    label="MOD_FUNDER_BRAND_URL_LABEL"
+                    description="MOD_FUNDER_BRAND_URL_DESC"
+                    default=""
                 />
                 <field
                     name="statement"
