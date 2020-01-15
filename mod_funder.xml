@@ -35,7 +35,7 @@
                     type="sql"
                     label="MOD_FUNDER_BRAND_LABEL"
                     description="MOD_FUNDER_BRAND_DESC"
-                    query="SELECT id, name FROM #__brands WHERE catid = 153 ORDER BY name"
+                    query="SELECT id, name FROM #__brands WHERE catid = 173 ORDER BY name"
                     key_field="id"
                     value_field="name"
                     header="None"
