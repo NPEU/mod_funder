@@ -58,12 +58,23 @@
                     filter="safehtml"
                 />
                 <field
-                    name="image"
-                    type="media"
-                    label="MOD_FUNDER_IMAGE_LABEL"
-                    description="MOD_FUNDER_IMAGE_DESC"
-                    directory="images"
-                />
+                    name="images"
+                    type="subform"
+                    label="MOD_FUNDER_IMAGES_LABEL"
+                    description="MOD_FUNDERS_IMAGE_DESC"
+                    multiple="true"
+                    min="1"
+                >
+                    <form>
+                        <field
+                            name="image"
+                            type="media"
+                            label="MOD_FUNDER_IMAGE_LABEL"
+                            description="MOD_FUNDER_IMAGE_DESC"
+                            directory="images"
+                        />
+                    </form>
+                </field>
             </fieldset>
         </fields>
     </config>
