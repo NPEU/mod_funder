@@ -61,7 +61,7 @@
                     name="images"
                     type="subform"
                     label="MOD_FUNDER_IMAGES_LABEL"
-                    description="MOD_FUNDERS_IMAGE_DESC"
+                    description="MOD_FUNDER_IMAGES_DESC"
                     multiple="true"
                     min="1"
                 >
