@@ -5,11 +5,11 @@
         <description>Joomla! mod_funder module</description>
         <element>mod_funder</element>
         <type>module</type>
-        <version>1.3.1</version>
+        <version>4.0.0</version>
         <client>site</client>
-        <infourl title="NPEU: mod_funder">https://github.com/NPEU/mod_funder/releases/tag/v1.3.1</infourl>
+        <infourl title="NPEU: mod_funder">https://github.com/NPEU/mod_funder/releases/tag/v4.0.0</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/NPEU/mod_funder/archive/v1.3.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/NPEU/mod_funder/archive/v4.0.0.zip</downloadurl>
         </downloads>
         <targetplatform name="joomla" />
         <tags>
